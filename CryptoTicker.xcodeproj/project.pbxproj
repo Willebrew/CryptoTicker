@@ -1,0 +1,246 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E45E6F26B9573200808527 /* CryptoTickerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E6E26B9573200808527 /* CryptoTickerApp.swift */; };
+		13E45E7126B9573200808527 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E7026B9573200808527 /* AppDelegate.swift */; };
+		13E45E7326B9573200808527 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E7226B9573200808527 /* ContentView.swift */; };
+		13E45E7526B9573200808527 /* CoinViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E7426B9573200808527 /* CoinViewModel.swift */; };
+		13E45E7726B9573200808527 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E7626B9573200808527 /* CoinDataService.swift */; };
+		13E45E7926B9573200808527 /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E7826B9573200808527 /* Coin.swift */; };
+		13E45E7B26B9573200808527 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E7A26B9573200808527 /* HeaderView.swift */; };
+		13E45E7D26B9573200808527 /* CoinListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E7C26B9573200808527 /* CoinListView.swift */; };
+		13E45E7F26B9573200808527 /* CoinRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E7E26B9573200808527 /* CoinRow.swift */; };
+		13E45E8126B9573200808527 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E8026B9573200808527 /* SettingsView.swift */; };
+		13E45E8326B9573200808527 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E8226B9573200808527 /* SettingsViewModel.swift */; };
+		13E45E8526B9573200808527 /* PersistenceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E8426B9573200808527 /* PersistenceController.swift */; };
+		13E45E8826B9573200808527 /* CryptoTickerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E45E8726B9573200808527 /* CryptoTickerWidget.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13E45E6D26B9573200808527 /* CryptoTicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E45E6E26B9573200808527 /* CryptoTickerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTickerApp.swift; sourceTree = "<group>"; };
+		13E45E7026B9573200808527 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13E45E7226B9573200808527 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13E45E7426B9573200808527 /* CoinViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinViewModel.swift; sourceTree = "<group>"; };
+		13E45E7626B9573200808527 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
+		13E45E7826B9573200808527 /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		13E45E7A26B9573200808527 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		13E45E7C26B9573200808527 /* CoinListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinListView.swift; sourceTree = "<group>"; };
+		13E45E7E26B9573200808527 /* CoinRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRow.swift; sourceTree = "<group>"; };
+		13E45E8026B9573200808527 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		13E45E8226B9573200808527 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		13E45E8426B9573200808527 /* PersistenceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceController.swift; sourceTree = "<group>"; };
+		13E45E8626B9573200808527 /* CryptoTickerWidget */ = {isa = PBXFileReference; lastKnownFileType = folder; name = CryptoTickerWidget; path = ../CryptoTickerWidget; sourceTree = "<group>"; };
+		13E45E8726B9573200808527 /* CryptoTickerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTickerWidget.swift; sourceTree = "<group>"; };
+		13E45E8A26B9573200808527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E45E8B26B9573200808527 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		13E45E6C26B9573200808527 = {isa = PBXGroup; children = ( 13E45E8626B9573200808527 /* CryptoTickerWidget */, 13E45E6B26B9573200808527 /* CryptoTicker */, 13E45E6A26B9573200808527 /* Products */ ); sourceTree = "<group>"; };
+		13E45E6A26B9573200808527 /* Products */ = {isa = PBXGroup; children = ( 13E45E6D26B9573200808527 /* CryptoTicker.app */ ); name = Products; sourceTree = "<group>"; };
+		13E45E6B26B9573200808527 /* CryptoTicker */ = {isa = PBXGroup; children = ( 13E45E6E26B9573200808527 /* CryptoTickerApp.swift */, 13E45E7026B9573200808527 /* AppDelegate.swift */, 13E45E7226B9573200808527 /* ContentView.swift */, 13E45E7426B9573200808527 /* CoinViewModel.swift */, 13E45E7626B9573200808527 /* CoinDataService.swift */, 13E45E7826B9573200808527 /* Coin.swift */, 13E45E7A26B9573200808527 /* HeaderView.swift */, 13E45E7C26B9573200808527 /* CoinListView.swift */, 13E45E7E26B9573200808527 /* CoinRow.swift */, 13E45E8026B9573200808527 /* SettingsView.swift */, 13E45E8226B9573200808527 /* SettingsViewModel.swift */, 13E45E8426B9573200808527 /* PersistenceController.swift */, 13E45E8A26B9573200808527 /* Info.plist */ ); path = CryptoTicker; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13E45E6926B9573200808527 /* CryptoTicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E45E9026B9573200808527 /* Build configuration list for PBXNativeTarget "CryptoTicker" */;
+			buildPhases = (
+				13E45E6626B9573200808527 /* Sources */,
+				13E45E6726B9573200808527 /* Frameworks */,
+				13E45E6826B9573200808527 /* Resources */,
+			);
+			buildRules = ( );
+			dependencies = ( );
+			name = CryptoTicker;
+			productName = CryptoTicker;
+			productReference = 13E45E6D26B9573200808527 /* CryptoTicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13E45E8926B9573200808527 /* CryptoTickerWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E45E9326B9573200808527 /* Build configuration list for PBXNativeTarget "CryptoTickerWidget" */;
+			buildPhases = (
+				13E45E8626B9573200808527 /* Sources */,
+				13E45E8726B9573200808527 /* Frameworks */,
+				13E45E8826B9573200808527 /* Resources */,
+			);
+			buildRules = ( );
+			dependencies = ( );
+			name = CryptoTickerWidget;
+			productName = CryptoTickerWidget;
+			productReference = 13E45E8C26B9573200808527 /* CryptoTickerWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13E45E6526B9573200808527 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1300;
+				ORGANIZATIONNAME = "";
+				TargetAttributes = {
+					13E45E6926B9573200808527 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					13E45E8926B9573200808527 = {
+						CreatedOnToolsVersion = 13.0;
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 13E45E6826B9573200808527 /* Build configuration list for PBXProject "CryptoTicker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13E45E6C26B9573200808527;
+			productRefGroup = 13E45E6A26B9573200808527 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E45E6926B9573200808527 /* CryptoTicker */,
+				13E45E8926B9573200808527 /* CryptoTickerWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E45E6626B9573200808527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E45E6F26B9573200808527 /* CryptoTickerApp.swift in Sources */,
+				13E45E7126B9573200808527 /* AppDelegate.swift in Sources */,
+				13E45E7326B9573200808527 /* ContentView.swift in Sources */,
+				13E45E7526B9573200808527 /* CoinViewModel.swift in Sources */,
+				13E45E7726B9573200808527 /* CoinDataService.swift in Sources */,
+				13E45E7926B9573200808527 /* Coin.swift in Sources */,
+				13E45E7B26B9573200808527 /* HeaderView.swift in Sources */,
+				13E45E7D26B9573200808527 /* CoinListView.swift in Sources */,
+				13E45E7F26B9573200808527 /* CoinRow.swift in Sources */,
+				13E45E8126B9573200808527 /* SettingsView.swift in Sources */,
+				13E45E8326B9573200808527 /* SettingsViewModel.swift in Sources */,
+				13E45E8526B9573200808527 /* PersistenceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E45E8626B9573200808527 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E45E8826B9573200808527 /* CryptoTickerWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13E45E8F26B9573200808527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COMBINE_HIDDEN_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_TESTABILITY = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.CryptoTicker";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13E45E9126B9573200808527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COMBINE_HIDDEN_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.CryptoTicker";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		13E45E9226B9573200808527 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				DEVELOPMENT_TEAM = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.CryptoTicker.CryptoTickerWidget";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13E45E9426B9573200808527 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				DEVELOPMENT_TEAM = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.CryptoTicker.CryptoTickerWidget";
+				PRODUCT_NAME = "$(PRODUCT_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E45E6826B9573200808527 /* Build configuration list for PBXProject "CryptoTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E45E8F26B9573200808527 /* Debug */,
+				13E45E9126B9573200808527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E45E9026B9573200808527 /* Build configuration list for PBXNativeTarget "CryptoTicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E45E8F26B9573200808527 /* Debug */,
+				13E45E9126B9573200808527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E45E9326B9573200808527 /* Build configuration list for PBXNativeTarget "CryptoTickerWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E45E9226B9573200808527 /* Debug */,
+				13E45E9426B9573200808527 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13E45E6526B9573200808527 /* Project object */;
+}
