@@ -111,14 +111,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Apple for the excellent SwiftUI framework
 - The cryptocurrency community for inspiration
 
-## 📞 Support
-
-If you encounter any issues or have questions:
-
-- 🐛 **Bug Reports**: [Open an issue](https://github.com/yourusername/CryptoTicker/issues)
-- 💡 **Feature Requests**: [Start a discussion](https://github.com/yourusername/CryptoTicker/discussions)
-- 📧 **Contact**: [your.email@example.com](mailto:your.email@example.com)
-
 ---
 
 <p align="center">Made with ❤️ for the macOS community</p>
